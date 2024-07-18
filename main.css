@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:1325px;
+    max-width:1360px;
+}
+
+form{
+    background-color: rgb(222, 171, 95);
+    width:650px;
+    height:380px;
+    margin:100px 200px auto 350px;
+    
+}
+
+form h1{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+form input,button{
+    width:500px;
+    height:40px;
+    margin-top:10px;
+    margin-left:70px;
+    border:solid rgb(50, 7, 110);
+    border-radius:10px ;
+}
+
+#resultado_da_operacao{
+    background-color: rgb(59, 136, 154);
+    color:white;
+    width:500px;
+    height:140px;
+    border:2px solid purple;
+    border-radius:20px;
+    margin:20px 0px auto 70px;
+    display:none;
+}
+
+ #mensagem_ruim{
+    width:500px;
+    height:30px;
+    margin-left:70px;
+    background-color: red;
+    display:none;
+}
